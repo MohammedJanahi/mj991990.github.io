@@ -9,7 +9,8 @@ var Csize = 800;
 function setup() {
   createCanvas(Csize , Csize);
   //slider =  createSlider(0, TWO_PI, PI / 4, 0.01);
-  slider2 = createSlider(1, 15, 8);
+  //slider2 = createSlider(1, 15, 8);
+  //slider2 = document.getElementById("myRange");
 }
 
 function draw() {
@@ -17,7 +18,7 @@ function draw() {
   angle = PI/4;
   //slider.value();
   stroke(1);
-  dept = slider2.value();
+  dept = document.getElementById("myRange").value;
   lineWidth = 100
   
   translate(Csize/2, Csize/2);
