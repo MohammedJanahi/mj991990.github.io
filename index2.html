@@ -1,0 +1,63 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
+  <!-- uncomment lines below to include extra p5 libraries -->
+  <script language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.js"></script>
+  <!--<script language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.sound.js"></script>-->
+  <script language="javascript" type="text/javascript" src="sketch2.js"></script>
+  <!-- this line removes any default padding and style. you might only need one of these values set. -->
+  <style>
+	.slidecontainer {
+		width: 100%;
+	}
+
+	.slider {
+		-webkit-appearance: none;
+		width: 100%;
+		height: 25px;
+		background: #d3d3d3;
+		outline: none;
+		opacity: 0.7;
+		-webkit-transition: .2s;
+		transition: opacity .2s;
+	}
+
+	.slider:hover {
+		opacity: 1;
+	}
+
+	.slider::-webkit-slider-thumb {
+		-webkit-appearance: none;
+		appearance: none;
+		width: 25px;
+		height: 25px;
+		background: #4CAF50;
+		cursor: pointer;
+	}
+
+	.slider::-moz-range-thumb {
+		width: 25px;
+		height: 25px;
+		background: #4CAF50;
+		cursor: pointer;
+	}
+	</style>
+
+</head>
+
+<body>
+<div class="links">
+	<a href="index.html" >PATTERN 1</a>
+	<a href="index2.html">PATTERN 2</a>
+	<a href="index3.html">PATTERN 3</a>
+	<a href="index4.html">PATTERN 4</a>
+	<a href="index5.html">PATTERN 5</a>
+	<a href="index6.html">PATTERN 6</a>
+	
+</div>
+<div class="slidecontainer">
+  <input type="range" min="1" max="13" value="5" class="slider" id="myRange">
+</div>
+</body>
+</html>
