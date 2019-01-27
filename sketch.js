@@ -5,7 +5,7 @@
 
 var angle = 0;
 var slider;
-var Csize = 800;
+var Csize = 1000;
 function setup() {
   createCanvas(Csize , Csize);
   //slider =  createSlider(0, TWO_PI, PI / 4, 0.01);
